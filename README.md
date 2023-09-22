@@ -1,32 +1,42 @@
-# Python Further Functions Assignment
 
-Welcome to your next Python assignment! This set of exercises will help you build upon the foundational knowledge you've gained in your previous lessons. You'll be practicing a variety of skills, from calculating areas of shapes to working with strings and numbers in different contexts.
+# Python Lists and Dictionaries Assignment
+
+## Instructions
+
+- Clone this repository to your local machine.
+- Navigate to the `solutions` directory and open the `lists_dicts.py` file.
+- Complete the functions provided as per the specifications.
+- Push your code to GitHub to see the results of the tests.
+
+## Requirements
+
+- Python 3.8+
+- `pytest` for running tests locally
+
+To install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+To run the tests locally:
+
+```bash
+pytest
+```
+
+## Grading
+
+Your assignment will be graded automatically every time you push. Check the GitHub Actions tab to see the results.
 
 ## Exercises
 
-### Exercise 1: Calculate Area of Shapes
-In this exercise, you will create a function called `calculate_area` that will calculate the area of different geometric shapes. The function should be able to calculate the area of a square, rectangle, triangle, and circle.
+1. **Generate Numbers**: Implement a function `generate_numbers` that returns a list of numbers from 1 to n.
+2. **Generate Squares**: Implement a function `generate_squares` that returns a dictionary where keys are numbers from 1 to n and values are their squares.
+3. **Merge Lists**: Implement a function `merge_lists` that merges two lists in an alternating fashion.
+4. **Multiply Keys**: Implement a function `multiply_keys` that replicates the dictionary keys based on their respective values.
+5. **List to Dictionary**: Implement a function `list_to_dict` that converts a list of strings to a dictionary with the string as the key and its length as the value.
+6. **Majority Element**: Implement a function `majority_element` to find the majority element in a list.
+7. **Filter Dictionary**: Implement a function `filter_dictionary` that filters a dictionary based on a threshold value.
 
-### Exercise 2: Find the Longest Palindromic Substring
-Build upon your string manipulation skills with this exercise. Your task is to create a function called `longest_palindromic_substring` that finds and returns the longest substring in a given string that reads the same backward as forward.
-
-### Exercise 3: Finding the Greatest Common Divisor (GCD)
-Enhance your mathematical programming skills with this exercise. You are required to create a function called `gcd` that takes two numbers as inputs and returns their greatest common divisor.
-
-### Exercise 4: Check for Balanced Brackets
-In this exercise, you will be working with strings and stacks. Your task is to create a function called `are_brackets_balanced` that checks if the brackets in a given string are balanced or not. 
-
-### Bonus Exercise: Convert Number to Roman Numerals
-As a bonus challenge, you will create a function called `to_roman` that converts a number to its Roman numeral representation.
-
-## Instructions
-- For each exercise, you'll find a Python file containing a function skeleton and unit tests.
-- Your task is to complete the function implementation so that all unit tests pass.
-- Make use of the resources and reference materials available to you to successfully complete these exercises.
-- Don't hesitate to collaborate with your peers or seek guidance if you find yourself stuck.
-
-## Grading
-Your assignment will be auto-graded based on the provided test.
-
-## Submission
-Please submit your assignment through GitHub Classroom by pushing your completed solutions to your repository.
+Good luck and happy coding!
