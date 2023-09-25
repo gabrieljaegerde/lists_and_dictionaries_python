@@ -1,6 +1,6 @@
 # TODO: Implement a function that returns a list of numbers from 1 to n
 def generate_numbers(n):
-    pass
+    return list(range(1, n+1))
 
 # TODO: Implement a function that returns a dictionary where keys are numbers from 1 to n and values are their squares
 def generate_squares(n):
