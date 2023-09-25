@@ -1,15 +1,11 @@
 import pytest
 from solutions.lists_dicts import *
 
-# Original tests:
-
 def test_generate_numbers():
     assert generate_numbers(5) == [1, 2, 3, 4, 5]
 
 def test_generate_squares():
     assert generate_squares(5) == {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
-
-# New tests:
 
 def test_merge_lists():
     assert merge_lists([1, 3, 5], [2, 4, 6]) == [1, 2, 3, 4, 5, 6]
