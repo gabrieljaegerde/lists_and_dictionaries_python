@@ -1,6 +1,6 @@
 # TODO: Implement a function that returns a list of numbers from 1 to n
 def generate_numbers(n):
-    return list(range(1, n+1))
+    pass
 
 # TODO: Implement a function that returns a dictionary where keys are numbers from 1 to n and values are their squares
 def generate_squares(n):
@@ -10,7 +10,7 @@ def generate_squares(n):
 def merge_lists(list1, list2):
     pass
 
-# TODO: Implement a function that replicates the dictionary keys based on their respective values
+# TODO: Implement a function that returns a list and replicates the dictionary keys based on their respective values
 def multiply_keys(data):
     pass
 
@@ -22,6 +22,6 @@ def list_to_dict(items):
 def majority_element(nums):
     pass
 
-# TODO: Implement a function that filters a dictionary based on a threshold value
+# TODO: Implement a function that filters a dictionary based on a threshold value. If the value of any key in the dictionary is greater than the threshold, that key-value pair should be retained in the output dictionary. Otherwise, it should be excluded.
 def filter_dictionary(data, threshold):
     pass
